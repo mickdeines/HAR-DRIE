@@ -1,0 +1,141 @@
+## Slide 1
+
+Development of High Aspect Ratio Deep Reactive Ion Etching Using Design of Experiments
+
+Mick Deines
+University of Washington
+
+## Slide 2
+
+Reactive Ion Etching and the Bosch Process
+
+Reactive Ion Etching (RIE) uses plasma and electromagnetic current to etch target material.
+The Bosch process improves etch depth and sidewall verticality by alternating deposition and etching steps.
+
+Figure 1: Diagrams of (a) standard RIE sidewall profile and (b) Bosch process RIE sidewall profile. Notice how the thin passivation layer protects the sidewalls and keeps them vertical.
+
+## Slide 3
+
+Aspect Ratio and Applications
+
+The aspect ratio is the ratio of feature depth to feature width.
+Maximizing aspect ratio is important for fabrication of MEMS devices.
+One way to improve the aspect ratio is to lower the etch pressure.
+
+Figure 2: Diagrams of (a) high pressure RIE sidewall profile and (b) low pressure RIE sidewall profile. Notice how higher pressures can lead to off-axis ions, leading to aspect ratio dependent etching.
+
+## Slide 4
+
+Methods
+
+1 mm-thick, 100 mm silicon wafers
+4 μm of SiO2 deposited via PECVD
+7 μm of AZ10XT photoresist
+Standard etch mask with trenches of widths varying from 5 μm to 500 μm
+
+Figure 3: Silicon wafer patterned with standard etch mask
+
+## Slide 5
+
+Design of Experiments (DoE)
+
+Trial
+Passivation
+Depassivation
+Etch
+ 
+Pressure
+Pressure
+Platen Power (W)
+Pressure
+Time (s)
+1
+45 mTorr
+35 mTorr
+80-->60
+35 mTorr
+2.5-->3
+2
+45 mTorr
+35 mTorr
+80-->60
+35 mTorr
+2.5
+3
+35 mTorr
+25 mTorr
+80-->100
+25 mTorr
+2.5
+4
+45 mTorr
+35 mTorr
+80-->100
+35 mTorr
+2.5-->3
+5
+35 mTorr
+25 mTorr
+80-->60
+25 mTorr
+2.5-->3
+6
+35 mTorr
+25 mTorr
+80-->100
+25 mTorr
+2.5-->3
+7
+45 mTorr
+35 mTorr
+80-->100
+35 mTorr
+2.5
+8
+35 mTorr
+25 mTorr
+80-->60
+25 mTorr
+2.5
+
+Table 1: Parameters that were varied for the eight different trials.
+
+JMP statistical software was used to determine parameters to vary. 
+
+## Slide 6
+
+Results and Trends
+
+Figure 4: Effects of different parameters on final aspect ratio as measured from the 5 μm trench
+
+## Slide 7
+
+SEM Images
+
+Figure 4: SEM sidewall images of (left) trial 3 and (right) trial 4. Notice the large difference in aspect ratio dependent etching.
+
+## Slide 8
+
+Conclusions and Future Work
+
+This project led to a high aspect ratio Deep Reactive Ion Etching recipe for use at the Washington Nanofabrication Facility for our industrial and academic users.
+Next steps:
+New etch mask with 1 μm trenches
+Thicker oxide layer to allow for longer etches
+Recipe limit characterization
+From this project, I became more familiar with dry etching processes and their mechanisms as well as using statistical tools to optimize a process. These skills are vital for helping me achieve my goals of becoming a process engineer.
+ 
+
+## Slide 9
+
+Acknowledgments
+
+I would like to thank Mark Morgan and Grace (Qi) Tong for mentoring this project as well as Cameron Toskey and Jean Nielsen for helping with DoE and lithography steps. I would also like to thank Darick Baker for providing support and managing the WNF undergraduate program.
+
+This work was supported by funding from the Microelectronics Commons Program, a DoW initiative.
+Part of this work was conducted at the Washington Nanofabrication Facility / Molecular Analysis Facility, a National Nanotechnology Coordinated Infrastructure (NNCI) site at the University of Washington with partial support from the National Science Foundation via awards NNCI-1542101 and NNCI-2025489.
+
+## Slide 10
+
+Thank you!
+Any questions?

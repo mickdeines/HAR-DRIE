@@ -1,0 +1,43 @@
+## Slide 1
+
+DRIE High Aspect Ratio using DOE
+
+Summary of Results and Next Steps
+
+## Slide 2
+
+Wafer A1
+
+Successfully verified resist side wall profile
+
+## Slide 3
+
+Wafer A4
+
+10.5 minutes in ICP-F, barely overetched, looks good to continue
+
+## Slide 4
+
+Wafer A5
+
+MM_Deep_STD_-3, 500 loops
+Etch rate = 0.60 um/loop, 
+Selectivity = 80.3, 
+Aspect ratio ~ 26
+
+## Slide 5
+
+Wafer A6
+
+MM_Deep_3x_-3, 945 loops
+Etch rate = 0.63 um/loop
+Selectivity = 139.3
+Aspect ratio ~ 47
+
+## Slide 6
+
+Next Steps
+
+• Modify the third loopset of MM_Deep_3x recipe to increase etch rate/aspect ratio.
+• Use JMP software to select 2-3 parameters for variation.
+• Determine upper/lower bounds for chosen parameters.
